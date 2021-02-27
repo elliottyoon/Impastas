@@ -1,4 +1,4 @@
-# [Access Website Here:](https:// elliottyoon.github.io)
+# [Access Website Here:](https://elliottyoon.github.io)
 ### Repo for Impastas website project
 
 <p>This is a html/css project where we create a website to fit the needs of our Discord server.</p>

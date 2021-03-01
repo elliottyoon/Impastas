@@ -231,7 +231,7 @@
     -moz-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    -mo-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 .hero__description {
@@ -700,9 +700,8 @@
         text-align: center;
         margin-bottom: 4rem;
 }
-    }
 
-  
+}
 .minecraft__container h1 {
     font-size: 2.5rem;
     margin-top: 2rem;
@@ -712,5 +711,169 @@
     margin-top: 1rem;
     font-size: 1.5rem;
 }
+/*******************************************************************************/
 
 
+
+
+.join {
+    background-color: #131313;
+    padding: 10rem 0;
+}
+
+.join__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 1 50px;
+}
+
+.join__content {
+    color: #fff;
+    width: 100%;
+}
+
+.join__content h1 {
+    font-size: 1rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.join__content h2 {
+    font-size: 4rem;
+    background: #942c71;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff0844 0%, #ffb199 100%);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff0844 0%, #ffb199 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.join__content p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.join__btn {
+    font-size: 1.8rem;
+    background: #942c71;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ff0844 0%, #ffb199 100%);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff0844 0%, #ffb199 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px 60px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+.join__btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.join__btn:after {
+    position: absolute;
+    content: ' ';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff8177;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.join__btn:hover {
+    color: #fff;
+}
+
+.join__btn:hover:after {
+    width: 100%;
+}
+
+.join__img--container {
+    text-align: center;
+}
+
+.join__img--card {
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    background-image: url(duck.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* For mobile devices */
+@media screen and (max-width: 1100px) {
+    .join__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90%;
+    }
+
+    .join__img--container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .join__image--card {
+        height: 425 px;
+        width: 425 px;
+    }
+
+    .join__content {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .join__content h1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    .join__content p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .join__img--card {
+        width: 250px;
+        height: 250px;
+    }
+}

@@ -192,7 +192,7 @@
         transform: translateY(8px) rotate(45deg);
     }
     /* third line in the mobile menu button */
-    #mobile-menu.is-active .bar:nth-child(1) {
+    #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
 }

@@ -374,13 +374,6 @@
     color: #fff;
     position: relative;
     background-image: url(impasta.png);
-    background-repeat: no-repeat;/*linear-gradient(to right, #00dbde 0%, #fc00ff 100%);*/
-    background-size: cover;
+    background-repeat: no-repeat;
 
 }
-/* 
-.main__img--card img {
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: cover;
-} */

@@ -375,5 +375,6 @@
     position: relative;
     background-image: url(impasta.png);
     background-repeat: no-repeat;
+    background-size: cover;
 
 }

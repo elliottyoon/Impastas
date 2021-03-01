@@ -88,7 +88,7 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #67B26F;  /* fallback for old browsers */
+    background: #942c71;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #ff0844 0%, #ffb199 100%);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ff0844 0%, #ffb199 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
@@ -194,5 +194,68 @@
     /* third line in the mobile menu button */
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+/* Hero Section */
+.hero {
+    background: #000000;
+    background: linear-gradient(to right, #161616, #000000);
+    padding: 200px 0;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30px;
+}
+
+.hero__heading {
+    font-size: 100px;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.hero__heading span {
+    background: #942c71;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff0844 0%, #ffb199 100%);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff0844 0%, #ffb199 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+}
+
+.hero__description {
+    font-size: 60px;
+    background: #942c71;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff0844 0%, #ffb199 100%);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff0844 0%, #ffb199 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+}
+
+.highlight {
+    border-bottom: 4px solid rgb(132,0,255);
+}
+
+@media screen and (max-width: 768px) {
+    .hero__heading {
+        font-size: 60px;
+    }
+
+    .hero__description {
+        font-size: 40px;
     }
 }

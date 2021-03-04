@@ -7,7 +7,7 @@
 }
 
 .navbar {
-    background: #000000;
+    background: #fff;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -59,7 +59,7 @@
 }
 
 .navbar__links {
-    color: #fff;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,18 +91,19 @@
     background: #942c71;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #ff0844 0%, #ffb199 100%);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ff0844 0%, #ffb199 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #fff;
+    color: white;
     transition: all 0.3s
 }
 
 .navbar__links:hover {
-    color: #9518fc;
+    color: #ff8177;
     transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 960px) {
     .navbar {
-        background: #000000;
+        background: black;
+        font-family: proxima-nova;
     }
     
     .navbar__container {
@@ -125,13 +126,13 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: -1;
-        background: #1313;
+        background: white;
     }
 
     /* showcases the drop-down menu when the button is actually clicked */
     .navbar__menu.active {
-        background: rgba(0, 0, 0, 0.2);
-        background-color: rgba(0,0,0,0.95);
+        background: rgba(216, 216, 216, 0.2);
+        background-color: rgba(255, 255, 255, 0.85);
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -149,7 +150,7 @@
         height: 3px;
         margin: 5px auto;
         transition: all 0.3 ease-in-out;
-        background: #fff;
+        background: white;
     }
 
     .navbar__item {
@@ -287,7 +288,7 @@
 
 /* About Section */
 .main {
-    background-color: black;
+    background-color: white;
     padding: 10rem 0;
 }
 
@@ -611,7 +612,7 @@
 
 /* =-=============================================== Server Section ================================================================ */
 .minecraft {
-    background-color: #131313;
+    background-color: #fff;
     padding: 10rem 0;
 }
 
@@ -741,7 +742,7 @@
 
 
 .join {
-    background-color: #131313;
+    background-color: #fff;
     padding: 10rem 0;
 }
 

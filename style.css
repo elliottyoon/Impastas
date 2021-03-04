@@ -8,11 +8,11 @@
 
 .navbar {
     background: #000000;
-    height: 80px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -22,7 +22,7 @@
 .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 50px;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -45,7 +45,7 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .navbar__menu {
@@ -55,7 +55,7 @@
 }
 
 .navbar__item {
-    height: 80px;
+    height: 50px;
 }
 
 .navbar__links {
@@ -178,9 +178,9 @@
 
     #mobile-menu {
         position: absolute;
-        top: 20%;
+        top: 10%;
         right: 5%;
-        transform: translate(5%,20%);
+        transform: translate(5%,10%);
     }
 
     .navbar__toggle .bar {
@@ -204,8 +204,8 @@
 
 /* Hero Section */
 .hero {
-    background: #000000;
-    background: linear-gradient(to right, #161616, #000000);
+    background: #fff;
+    /* background: linear-gradient(to right, #161616, #000000); */
     padding: 200px 0;
 }
 
@@ -224,7 +224,7 @@
 .hero__heading {
     font-size: 100px;
     margin-bottom: 24px;
-    color: #fff;
+    color: #000;
 }
 
 .hero__heading span {

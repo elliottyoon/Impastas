@@ -210,7 +210,7 @@
     padding: 200px 0;
     background-size: cover;
     width: 100vw;
-    height: 83.5vw;
+    height: 100vh;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -269,7 +269,7 @@
         /* background-image: url(Hero-image.jpg);  */
         padding: 200px 0;
         width: 100vw;
-        height: 83.5vw;
+        height: 100vh;
         background-position: center center;
         background-size: contain;
         background-attachment: scroll;

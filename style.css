@@ -340,6 +340,7 @@
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
+    color: #000000;
 }
 
 .main__btn {
@@ -612,8 +613,9 @@
 
 /* =-=============================================== Server Section ================================================================ */
 .minecraft {
-    background-color: #fff;
+    /* background-color: #fff; */
     padding: 10rem 0;
+    color: black;
 }
 
 .minecraft__container {
@@ -628,10 +630,6 @@
     padding: 30px;
     text-align: center;
     margin-bottom: 4rem;
-}
-
-.minecraft__container {
-    color: #fff;
     width: 100%;
 }
 
@@ -649,22 +647,11 @@
     margin-bottom: 32px;
 }
 
-.minecraft__container h2 {
-    font-size: 4rem;
-    background: #942c71;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ff0844 0%, #ffb199 100%);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ff0844 0%, #ffb199 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-}
-
 .minecraft__container p {
+    color: #000000;
     margin-top: 1rem;
     font-size: 2rem;
-    font-weight: 700;
+
 }
 
 .minecraft__btn {
@@ -681,6 +668,7 @@
     transition: all 0.35s;
     outline: none;
 }
+
 
 .minecraft__btn a {
     position: relative;
@@ -732,10 +720,7 @@
     margin-top: 2rem;
 }
 
-.minecraft__container p {
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
+
 /*******************************************************************************/
 
 
@@ -754,7 +739,7 @@
     margin: 0 auto;
     height: 90%;
     z-index: 1;
-    width: 100%;
+    width: 50vw;
     max-width: 1300px;
     padding: 1 50px;
 }
@@ -776,6 +761,7 @@
     -moz-text-fill-color: transparent;
     text-transform: uppercase;
     margin-bottom: 32px;
+
 }
 
 .join__content h2 {
@@ -792,6 +778,7 @@
 
 .join__content p {
     margin-top: 1rem;
+    color: #000000; 
     font-size: 2rem;
     font-weight: 700;
 }

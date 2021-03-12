@@ -938,6 +938,20 @@
     transition: 0.3 ease-out;
 }
 
+.footer__link--items p {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    transition: 0.3 ease-out;
+}
+
+.footer__link--items p:hover {
+    color: #e9e9e9;
+    transition: 0.3 ease-out;
+}
+
+
+
 @media screen and (max-sidth: 820px) {
     .footer__links {
         padding-top: 2rem;

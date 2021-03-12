@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Train: Data/APIs 1</title>
+    
+</head>
+    <body>
+        <img src="" id="duck" width = 480>
+        <script>
+            console.log("fetching a duck");
+            const filenames = [
+                'gamer.jpg',
+                'sheep.jpg',
+                'otter.jpg'
+            ];
+            
+            catchDuck(filenames)
+                .then(response => {
+                    console.log('yay');
+                })
+                .catch(error => {
+                    console.log('error');
+                    console.error(error);
+                });
+            async function catchDuck(filenames) {
+                for (let filename of filenames) {
+                    const response = await fetch(filename);
+                    const blob = await response.blob();
+                    const img = document.createElement('img');
+                    img.src = URL.createObjectURL(blob);
+                    img.width = '480';
+                    document.body.append(img);
+                }
+                
+                
+            }
+
+        </script>
+    </body>
+</html>
